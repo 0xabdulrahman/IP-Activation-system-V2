@@ -1,2 +1,2 @@
 @0xabdulrahman on Github .
-@abdulrahman.sarmad in Instagram
+@abdulrahman.sarmad on Instagram
