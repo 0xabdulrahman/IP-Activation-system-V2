@@ -21,7 +21,14 @@ root = Tk()
 root.geometry("250x120")
 root.title("Log in form")
 root.resizable(0,0)
- 
+
+update = requests.get('https://pastebin.com/raw/5j13aM9W').text
+if update == '0':
+    pass
+if update == '1':
+    messagebox.showinfo("Login", "New update available!\nCheck @abdulrahman.sarmad on IG\nfor the latest updates")
+    root.destroy()
+    exit()
 
 def Login():
     req = requests.get(web).text
